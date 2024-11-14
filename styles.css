@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: Sora, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(90deg, rgb(251, 203, 227), rgb(58, 248, 244));
+}
+.todo-app {
+  margin: 100px auto 20px;
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  margin: 100px auto 20px;
+}
+
+.todo-app h1 {
+  text-align: center;
+}
+
+#todo-form {
+  margin-top: 30px;
+}
